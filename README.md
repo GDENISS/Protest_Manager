@@ -69,8 +69,8 @@ python manage.py runserver
 ### Frontend Setup
 ```bash
 cd frontend
-npm install
-npm start
+pnpm install
+pnpm run dev
 ```
 
 ### Database Configuration
@@ -169,11 +169,11 @@ Authorization: Bearer <your-jwt-token>
 ```bash
 # Backend tests
 cd backend
-python -m pytest
+python manage.py runserver 
 
 # Frontend tests
 cd frontend
-npm test
+pnpm run dev
 ```
 
 ## Deployment
