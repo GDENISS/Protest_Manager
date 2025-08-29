@@ -1,0 +1,18 @@
+.custom-route-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.route-animation {
+  animation: route-pulse 2s infinite;
+}
+
+@keyframes route-pulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+/* Override Leaflet routing machine styles */
+.leaflet-routing-container {
+  display: none !important;
+}

@@ -1,0 +1,27 @@
+# -----------------------
+# Python / Django backend
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment inside project/
+project/protestenv/
+
+# Local database
+project/db.sqlite3
+
+# Collected static and media files
+project/staticfiles/
+project/media/
+
+# Env files
+project/.env
+project/.env.*
+
+# -----------------------
+# System files
+# -----------------------
+.DS_Store
+Thumbs.db
